@@ -1,0 +1,64 @@
+/* sis_wtf.css */
+/*
+p {
+font-family: titling-gothic-fb-extended, sans-serif;
+font-weight:900;
+font-style: normal;
+font-size: 1.5em;
+margin-left: 2em;
+margin-right: 2em;
+margin-bottom: -1em;
+padding: 1.2%;
+color: blue;
+    letter-spacing: -.025em;
+
+}
+.mar {
+background-color: yellow;
+margin: 1em;
+}
+.ben {
+background-color: gainsboro;
+margin: 1em; 
+}
+*/
+body {
+    background: gainsboro;
+}
+.message {    
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1em;
+    letter-spacing: -.025em;
+    background-color: ghostwhite;
+    padding: 4%;
+    margin:5%;
+    border: 8px solid black;
+    }
+/*
+.messageTwo {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.2em;
+     letter-spacing: -.025em;
+    background-color: lightskyblue;
+    padding: 4%;
+    margin: 5%
+    
+}*/
+
+h2 {
+    
+    font-size: .5em;
+    letter-spacing: .025em;
+    text-align: right;
+    padding:1%;
+    
+}
+
+.ben {
+    text-align: right;
+    color: blue
+}
