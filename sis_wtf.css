@@ -160,12 +160,12 @@ a {
 .pagetwo{
     font-family: neue-haas-grotesk-text, sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
     float: right;
     margin: 1%;
     margin-right: 3%;
     padding: 2%;
-    color: yellow;
+    color: greenyellow;
 }
 span.nobreak {
     white-space: nowrap;
