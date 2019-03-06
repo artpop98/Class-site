@@ -6,7 +6,7 @@ body {
     height: 300vh;
     color: #fcfcfc;
     background: linear-gradient(-55deg, #ff56ff, #00CBFF, #ff56ff, #00CBFF), dodgerblue;
-    background-size: 300% 300%;
+    background-size: 300%, 300%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
@@ -56,12 +56,21 @@ body {
 
 h1 {
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-language-override: 
-    font-weight: 900;
+    font-weight: 500;
     margin-left: 3%;
     margin-top: 2%;
     color: ghostwhite;
-    opacity: 85%;
+}
+.pagetwo{
+    font-family: neue-haas-grotesk-text, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    float: right;
+    text-align: right;
+    margin: 1%;
+    margin-right: 3%;
+    padding: 2%;
+    color: greenyellow;
 
 }
 
@@ -157,17 +166,7 @@ nav {
 a {
     text-decoration-color: yellow;
 }
-.pagetwo{
-    font-family: neue-haas-grotesk-text, sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    float: right;
-    text-align: right;
-    margin: 1%;
-    margin-right: 3%;
-    padding: 2%;
-    color: greenyellow;
-}
+
 span.nobreak {
     white-space: nowrap;
 }
