@@ -1,64 +1,90 @@
 /* sis_wtf.css */
-/*
-p {
-font-family: titling-gothic-fb-extended, sans-serif;
-font-weight:900;
-font-style: normal;
-font-size: 1.5em;
-margin-left: 2em;
-margin-right: 2em;
-margin-bottom: -1em;
-padding: 1.2%;
-color: blue;
-    letter-spacing: -.025em;
 
-}
-.mar {
-background-color: yellow;
-margin: 1em;
-}
-.ben {
-background-color: gainsboro;
-margin: 1em; 
-}
-*/
+
 body {
-    background: gainsboro;
+    background-color: dodgerblue
+    
 }
-.message {    
-    font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    line-height: 1em;
-    letter-spacing: -.025em;
-    background-color: ghostwhite;
-    padding: 4%;
-    margin:5%;
-    border: 8px solid black;
-    }
-/*
-.messageTwo {
-    font-family: neue-haas-grotesk-text, sans-serif;
-    font-weight: 700;
+h1{
+    margin-left: 15%;
+    margin-top: 3%;
+    color: yellow;
+    
+}
+
+.message {
+
     font-size: 1.5em;
     line-height: 1.2em;
-     letter-spacing: -.025em;
-    background-color: lightskyblue;
-    padding: 4%;
-    margin: 5%
-    
-}*/
+    letter-spacing: -2%;
+    background-color:#fcfcfc;
+    padding: 3%;
+    margin-left: 15%;
+    border: .8em solid yellow;
+    margin-bottom: 1%;
+    height: auto;
+    width: 40%;
+}
 
 h2 {
-    
+
     font-size: .5em;
-    letter-spacing: .025em;
-    text-align: right;
-    padding:1%;
-    
+    letter-spacing: 2.5%;
+    text-align: center;
+    padding: 1%;
+    color: dimgrey;
 }
 
 .ben {
-    text-align: right;
-    color: blue
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    letter-spacing: -.025em;
+     text-align: right;
+    color: limegreen;
+
+}
+
+.mar {
+    font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 500;
+    letter-spacing: -.025em;
+    color: deeppink;    
+}
+
+.picStyle {
+    width:300px;
+    height: auto;
+   
+    padding: 2%;
+    
+    
+}
+img {
+  height: auto;
+  width: 300px;
+    display: none;
+}
+.hover:hover img{
+    display:block;
+    
+}
+/* 
+nav {
+    margin-left: 80%;
+    top:5%em;
+    right:5%;
+    font-family: inherit;
+    width:20%;
+    text-align: center;
+    height: inherit;
+    border: 8px solid yellow;
+    padding: 1%;
+    background-color: #fcfcfc;
+    box-sizing: content-box;
+    position: fixed;
+} */
+
+span.nobreak{
+    white-space: nowrap;
 }
