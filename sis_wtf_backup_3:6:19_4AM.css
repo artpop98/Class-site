@@ -54,11 +54,11 @@ body {
     }
 }
 
+
 h1 {
     font-family: neue-haas-grotesk-text, sans-serif;
-    font-language-override: 
     font-weight: 900;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 2%;
     color: ghostwhite;
     opacity: 85%;
@@ -85,9 +85,10 @@ h1 {
     padding: 1%;
     margin-left: 3%;
     border: .5em solid yellow;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     height: auto;
-    width: 55%
+    width: 45%
+   
 }
 
 h2 {
@@ -101,6 +102,7 @@ h2 {
 
 .ben {
     font-family: neue-haas-grotesk-text, sans-serif;
+    font-weight: 500;
     font-weight: 500;
     letter-spacing: -.025em;
     text-align: right;
@@ -154,23 +156,10 @@ nav {
     box-sizing: content-box;
     position: fixed;
 } */
-a {
-    text-decoration-color: yellow;
-}
-.pagetwo{
-    font-family: neue-haas-grotesk-text, sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    float: right;
-    margin: 1%;
-    margin-right: 3%;
-    padding: 2%;
-    color: yellow;
-}
+
 span.nobreak {
     white-space: nowrap;
 }
-
 /* trying to make it 2 columns
 #macNcheese {
     width: 35%;
